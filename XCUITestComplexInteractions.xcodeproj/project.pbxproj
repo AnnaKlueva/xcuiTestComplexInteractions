@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9121B37E21AC409100E135DD /* XCUITestChangePasscodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121B37D21AC409100E135DD /* XCUITestChangePasscodeTest.m */; };
+		9121B38021AC4EF200E135DD /* XCUITestRemovePasscode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121B37F21AC4EF200E135DD /* XCUITestRemovePasscode.m */; };
 		91BE6EB2219B07C200A181B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BE6EB1219B07C200A181B3 /* AppDelegate.m */; };
 		91BE6EB5219B07C200A181B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BE6EB4219B07C200A181B3 /* ViewController.m */; };
 		91BE6EB8219B07C200A181B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91BE6EB6219B07C200A181B3 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9121B37D21AC409100E135DD /* XCUITestChangePasscodeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCUITestChangePasscodeTest.m; sourceTree = "<group>"; };
+		9121B37F21AC4EF200E135DD /* XCUITestRemovePasscode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCUITestRemovePasscode.m; sourceTree = "<group>"; };
 		91BE6EAD219B07C100A181B3 /* XCUITestComplexInteractions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCUITestComplexInteractions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91BE6EB0219B07C200A181B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91BE6EB1219B07C200A181B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				91BE6EC9219B07CE00A181B3 /* XCUITestComplexInteractionsUITests.m */,
 				91BE6ECB219B07CE00A181B3 /* Info.plist */,
+				9121B37D21AC409100E135DD /* XCUITestChangePasscodeTest.m */,
+				9121B37F21AC4EF200E135DD /* XCUITestRemovePasscode.m */,
 			);
 			path = XCUITestComplexInteractionsUITests;
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9121B38021AC4EF200E135DD /* XCUITestRemovePasscode.m in Sources */,
+				9121B37E21AC409100E135DD /* XCUITestChangePasscodeTest.m in Sources */,
 				91BE6ECA219B07CE00A181B3 /* XCUITestComplexInteractionsUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
